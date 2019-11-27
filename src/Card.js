@@ -4,7 +4,7 @@ const Header = ()=>{
     return(
         <div>
             <nav className='nav-wrapper green darken-2'>
-                <h6 className='brand-logo center'>Juliet's News App</h6>
+                <div className='center'>Juliet's News App</div>
                 {/* <ul className='right'>
                     <li><a href='#'>Home</a></li>
                     <li><a href='#'>About</a></li>

@@ -46,7 +46,7 @@ class News extends Component{
         const {searchTerm, result} = this.state
         return(
             <div>
-                <Header/><br/><br/>
+                <Header/>
                 <div>
                     <Search 
                         value={searchTerm}
