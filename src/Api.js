@@ -47,7 +47,7 @@ class News extends Component{
         return(
             <div>
                 <Header/>
-                <div>
+                 <div>
                     <Search 
                         value={searchTerm}
                         onChange={this.onSearchChange}
@@ -86,7 +86,7 @@ const Footer = ()=>(
       <div className="row">
         <div className="col l6 s12">
           <h6 className="white-text">Juliet's News App</h6>
-          <p className="grey-text text-lighten-4">Welcome to my website where you get daily and insightful News.<br/><b>Knowledge is power</b></p>
+          <p className="grey-text text-lighten-4">Welcome to my website where you get daily and insightful News everyday.<br/><b>Knowledge is power</b></p>
         </div>
         <div className="col l4 offset-l2 s12">
           <h5 className="white-text">Contact Us</h5>
